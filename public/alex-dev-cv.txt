@@ -1,0 +1,16 @@
+ALEX DEV — FULLSTACK DEVELOPER
+
+Email: hello@alexdev.vn
+Location: Việt Nam
+
+Kinh nghiệm
+- Senior Fullstack Developer — Tech Solution Co. (2024 – Hiện tại)
+- Fullstack Developer — Digital Agency (2022 – 2024)
+- Frontend Developer — Creative Studio (2021 – 2022)
+
+Kỹ năng
+React, Next.js, TypeScript, Tailwind CSS, Node.js, NestJS, Python,
+PostgreSQL, MongoDB, Docker, Git, Figma
+
+Hãy thay file này bằng CV PDF của bạn và cập nhật đường dẫn `profile.cv`
+trong `data/portfolio.ts`.
