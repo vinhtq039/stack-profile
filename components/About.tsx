@@ -1,6 +1,14 @@
-import { UserRound } from 'lucide-react';
+import { BookOpen, Camera, Headphones, Plane, UserRound } from 'lucide-react';
+import type { CSSProperties } from 'react';
 import type { Locale } from '@/data/portfolio';
 import { interests, localize, uiText } from '@/data/portfolio';
+
+const interestIcons = {
+  BookOpen,
+  Camera,
+  Plane,
+  Headphones,
+};
 
 type AboutProps = {
   locale: Locale;
@@ -29,15 +37,25 @@ export function About({ locale }: AboutProps) {
         className="mt-[23px] mb-0 flex list-none flex-wrap gap-2.5 p-0"
         aria-label={text.interests}
       >
-        {interests.map((interest) => (
-          <li
-            className="inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-white/[.025] px-3.5 py-[9px] text-[.78rem] text-[var(--secondary)]"
-            key={interest.emoji}
-          >
-            <span aria-hidden="true">{interest.emoji}</span>
-            {localize(interest.label, locale)}
-          </li>
-        ))}
+        {interests.map((interest) => {
+          const Icon = interestIcons[interest.icon];
+
+          return (
+            <li
+              className="inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-white/[.025] py-[7px] pr-3.5 pl-2 text-[.78rem] text-[var(--secondary)]"
+              key={interest.icon}
+              style={{ '--interest-color': interest.color } as CSSProperties}
+            >
+              <span
+                className="grid size-6 place-items-center rounded-[7px] border border-[color-mix(in_srgb,var(--interest-color)_28%,transparent)] bg-[color-mix(in_srgb,var(--interest-color)_12%,transparent)] text-[var(--interest-color)]"
+                aria-hidden="true"
+              >
+                <Icon size={14} strokeWidth={2} />
+              </span>
+              {localize(interest.label, locale)}
+            </li>
+          );
+        })}
       </ul>
     </article>
   );

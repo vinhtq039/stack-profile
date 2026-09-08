@@ -1,6 +1,6 @@
-import { Workflow } from 'lucide-react';
-import type { Locale } from '@/data/portfolio';
-import { experiences, localize, uiText } from '@/data/portfolio';
+import { Workflow } from "lucide-react";
+import type { Locale } from "@/data/portfolio";
+import { experiences, localize, uiText } from "@/data/portfolio";
 
 type ExperienceProps = {
   locale: Locale;
@@ -22,7 +22,7 @@ export function Experience({ locale }: ExperienceProps) {
           {text.experienceTitle}
         </h2>
       </header>
-      <ol className="relative m-0 grid list-none gap-[17px] p-0 before:absolute before:top-2.5 before:bottom-[13px] before:left-2 before:w-px before:bg-[linear-gradient(#8174ff,rgba(91,140,255,.18))] before:content-[''] min-[621px]:before:left-[110px]">
+      <ol className="relative m-0 grid list-none gap-[17px] p-0 before:absolute before:top-2.5 before:bottom-[13px] before:left-2 before:w-px before:bg-[linear-gradient(#8174ff,rgba(91,140,255,.18))] before:content-[''] min-[621px]:before:left-[109px]">
         {experiences.map((experience) => (
           <li
             className="relative grid grid-cols-[16px_minmax(0,1fr)] items-start gap-x-2.5 min-[621px]:grid-cols-[90px_14px_minmax(0,1fr)] min-[621px]:gap-x-[13px]"

@@ -229,10 +229,26 @@ export const experiences = [
 ] as const;
 
 export const interests = [
-  { emoji: '📚', label: { vi: 'Đọc sách', en: 'Reading' } },
-  { emoji: '📷', label: { vi: 'Chụp ảnh', en: 'Photography' } },
-  { emoji: '✈️', label: { vi: 'Du lịch', en: 'Travel' } },
-  { emoji: '🎧', label: { vi: 'Công nghệ', en: 'Technology' } },
+  {
+    icon: 'BookOpen',
+    color: '#5b8cff',
+    label: { vi: 'Đọc sách', en: 'Reading' },
+  },
+  {
+    icon: 'Camera',
+    color: '#a78bfa',
+    label: { vi: 'Chụp ảnh', en: 'Photography' },
+  },
+  {
+    icon: 'Plane',
+    color: '#38bdf8',
+    label: { vi: 'Du lịch', en: 'Travel' },
+  },
+  {
+    icon: 'Headphones',
+    color: '#f472b6',
+    label: { vi: 'Công nghệ', en: 'Technology' },
+  },
 ] as const;
 
 export const socials = [
