@@ -23,7 +23,7 @@ export function About({ locale }: AboutProps) {
       id="about"
     >
       <header className="mb-[17px] flex items-center gap-[13px]">
-        <span className="grid size-[37px] place-items-center rounded-[11px] border border-[rgba(108,118,255,.16)] bg-[linear-gradient(145deg,rgba(97,91,255,.15),rgba(79,165,255,.07))] text-[#8276ff]">
+        <span className="grid size-[37px] place-items-center rounded-[11px] border border-[rgba(108,118,255,.16)] bg-[linear-gradient(145deg,rgba(97,91,255,.15),rgba(79,165,255,.07))] text-[var(--accent-icon)]">
           <UserRound size={20} />
         </span>
         <h2 className="m-0 text-[1.25rem] leading-[1.2] font-[720] tracking-[-.035em] text-[var(--foreground)] min-[391px]:text-[1.38rem]">

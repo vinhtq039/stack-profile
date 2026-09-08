@@ -15,7 +15,7 @@ export function Experience({ locale }: ExperienceProps) {
       id="experience"
     >
       <header className="mb-[17px] flex items-center gap-[13px]">
-        <span className="grid size-[37px] place-items-center rounded-[11px] border border-[rgba(108,118,255,.16)] bg-[linear-gradient(145deg,rgba(97,91,255,.15),rgba(79,165,255,.07))] text-[#8276ff]">
+        <span className="grid size-[37px] place-items-center rounded-[11px] border border-[rgba(108,118,255,.16)] bg-[linear-gradient(145deg,rgba(97,91,255,.15),rgba(79,165,255,.07))] text-[var(--accent-icon)]">
           <Workflow size={20} />
         </span>
         <h2 className="m-0 text-[1.25rem] leading-[1.2] font-[720] tracking-[-.035em] text-[var(--foreground)] min-[391px]:text-[1.38rem]">
@@ -28,7 +28,7 @@ export function Experience({ locale }: ExperienceProps) {
             className="relative grid grid-cols-[16px_minmax(0,1fr)] items-start gap-x-2.5 min-[621px]:grid-cols-[90px_14px_minmax(0,1fr)] min-[621px]:gap-x-[13px]"
             key={experience.company}
           >
-            <time className="col-start-2 row-start-1 pb-0.5 text-[.74rem] whitespace-nowrap text-[#7ea2f5] min-[621px]:col-start-1 min-[621px]:row-start-1 min-[621px]:pt-0.5 min-[621px]:pb-0 min-[621px]:text-[var(--secondary)]">
+            <time className="col-start-2 row-start-1 pb-0.5 text-[.74rem] whitespace-nowrap text-[var(--accent-link)] min-[621px]:col-start-1 min-[621px]:row-start-1 min-[621px]:pt-0.5 min-[621px]:pb-0 min-[621px]:text-[var(--secondary)]">
               {localize(experience.period, locale)}
             </time>
             <span className="z-[1] col-start-1 row-start-1 row-span-2 mx-auto mt-1 size-[9px] rounded-full bg-[linear-gradient(135deg,#8c72ff,#59adff)] shadow-[0_0_0_4px_rgba(91,140,255,.07)] min-[621px]:col-start-2 min-[621px]:row-span-1" />

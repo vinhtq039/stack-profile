@@ -112,7 +112,7 @@ export function Hero({ locale }: HeroProps) {
                 className="grid grid-cols-[38px_1fr] items-center gap-2.5 rounded-2xl border border-[var(--border)] bg-[var(--stat-background)] p-3 min-[621px]:grid-cols-[46px_1fr] min-[621px]:gap-[13px] min-[621px]:p-[15px] min-[1101px]:rounded-none min-[1101px]:border-0 min-[1101px]:bg-transparent min-[1101px]:p-0 max-[390px]:block"
                 key={stat.icon}
               >
-                <div className="grid size-[38px] place-items-center rounded-[13px] border border-[rgba(107,128,255,.12)] bg-[linear-gradient(145deg,rgba(76,105,255,.11),rgba(74,129,255,.05))] text-[#7887ff] min-[621px]:size-[46px] max-[390px]:mb-[9px]">
+                <div className="grid size-[38px] place-items-center rounded-[13px] border border-[rgba(107,128,255,.12)] bg-[linear-gradient(145deg,rgba(76,105,255,.11),rgba(74,129,255,.05))] text-[var(--accent-icon)] min-[621px]:size-[46px] max-[390px]:mb-[9px]">
                   <Icon size={22} />
                 </div>
                 <div>

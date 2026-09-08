@@ -14,6 +14,13 @@
   --border: rgba(255, 255, 255, 0.09);
   --accent-blue: #5b8cff;
   --accent-purple: #7c6cff;
+  --accent-link: #69a5ff;
+  --accent-hover: #9c8dff;
+  --accent-icon: #8276ff;
+  --accent-icon-hover: #8ea8ff;
+  --project-title: #cbd3ff;
+  --chip-text: #b7c1e7;
+  --icon-text: #cbd4e4;
   --card-shadow: 0 24px 70px rgba(0, 0, 0, 0.26);
   --nav-background: color-mix(in srgb, var(--background) 84%, transparent);
   --footer-background: color-mix(in srgb, var(--background) 76%, transparent);
@@ -26,10 +33,19 @@
   --background: #eef3fb;
   --surface: rgba(255, 255, 255, 0.76);
   --surface-strong: #ffffff;
-  --foreground: #101625;
-  --secondary: #53627a;
-  --muted: #718097;
-  --border: rgba(19, 31, 54, 0.12);
+  --foreground: #0d1424;
+  --secondary: #43536c;
+  --muted: #5e6e85;
+  --border: rgba(19, 31, 54, 0.16);
+  --accent-blue: #2f63cf;
+  --accent-purple: #5b43c7;
+  --accent-link: #275fbe;
+  --accent-hover: #583eb9;
+  --accent-icon: #5548c8;
+  --accent-icon-hover: #3159ad;
+  --project-title: #2d468c;
+  --chip-text: #4d5d78;
+  --icon-text: #3e4f68;
   --card-shadow: 0 24px 70px rgba(55, 72, 108, 0.14);
   --stat-background: rgba(255, 255, 255, 0.62);
   --project-background: rgba(255, 255, 255, 0.62);
@@ -87,7 +103,7 @@
   }
 
   :focus-visible {
-    outline: 2px solid #70a4ff;
+    outline: 2px solid var(--accent-blue);
     outline-offset: 4px;
   }
 }

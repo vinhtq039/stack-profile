@@ -27,7 +27,7 @@ export function SectionTitle({
       </div>
       {action ? (
         <a
-          className="inline-flex shrink-0 items-center gap-2 px-px py-[5px] text-[.83rem] font-[580] text-[#69a5ff] transition-[color,gap] duration-200 hover:gap-[11px] hover:text-[#9c8dff]"
+          className="inline-flex shrink-0 items-center gap-2 px-px py-[5px] text-[.83rem] font-[620] text-[var(--accent-link)] transition-[color,gap] duration-200 hover:gap-[11px] hover:text-[var(--accent-hover)]"
           href={href}
         >
           {action} <ArrowRight size={17} />

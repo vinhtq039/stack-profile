@@ -29,11 +29,11 @@ export function ProjectCard({ locale, project }: ProjectCardProps) {
       </a>
       <div className="p-[15px_17px_17px] min-[621px]:self-center">
         <div className="flex items-center justify-between gap-3.5">
-          <h3 className="m-0 text-[.92rem] leading-[1.35] font-semibold tracking-[-.015em] text-[#cbd3ff] min-[391px]:text-[.99rem]">
+          <h3 className="m-0 text-[.92rem] leading-[1.35] font-semibold tracking-[-.015em] text-[var(--project-title)] min-[391px]:text-[.99rem]">
             {title}
           </h3>
           <a
-            className="grid size-[34px] shrink-0 place-items-center rounded-full border border-[var(--border)] text-[var(--secondary)] transition-[color,border-color,transform] duration-200 hover:rotate-[4deg] hover:border-[rgba(112,164,255,.43)] hover:text-[#8ea8ff]"
+            className="grid size-[34px] shrink-0 place-items-center rounded-full border border-[var(--border)] text-[var(--secondary)] transition-[color,border-color,transform] duration-200 hover:rotate-[4deg] hover:border-[rgba(112,164,255,.43)] hover:text-[var(--accent-icon-hover)]"
             href={project.href}
             aria-label={`${text.openProject} ${title}`}
           >
@@ -49,7 +49,7 @@ export function ProjectCard({ locale, project }: ProjectCardProps) {
         >
           {project.tags.map((tag) => (
             <li
-              className="rounded-full border border-[var(--border)] bg-[rgba(102,115,190,.09)] px-[13px] py-[7px] text-[.72rem] text-[#b7c1e7]"
+              className="rounded-full border border-[var(--border)] bg-[rgba(102,115,190,.09)] px-[13px] py-[7px] text-[.72rem] font-medium text-[var(--chip-text)]"
               key={tag}
             >
               {tag}

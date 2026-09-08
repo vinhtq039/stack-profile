@@ -156,7 +156,7 @@ export function Navbar({ locale, onLocaleChange }: NavbarProps) {
               <a
                 className={`rounded-[10px] px-3 py-[11px] text-center transition-colors hover:bg-[rgba(91,140,255,.09)] hover:text-[var(--foreground)] ${
                   isActive
-                    ? 'bg-[rgba(91,140,255,.09)] text-[#8ba7ff]'
+                    ? 'bg-[rgba(91,140,255,.09)] text-[var(--accent-link)]'
                     : 'text-[var(--secondary)]'
                 }`}
                 href={item.href}

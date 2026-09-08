@@ -56,7 +56,7 @@ export function Footer({ locale }: FooterProps) {
             const Icon = socialIcons[social.icon];
             return (
               <a
-                className="grid size-[35px] place-items-center rounded-full border border-[var(--border)] bg-white/[.025] text-[#cbd4e4] transition-[transform,color,border-color] duration-200 hover:-translate-y-[3px] hover:border-[rgba(112,164,255,.38)] hover:text-[#7fa6ff]"
+                className="grid size-[35px] place-items-center rounded-full border border-[var(--border)] bg-white/[.025] text-[var(--icon-text)] transition-[transform,color,border-color] duration-200 hover:-translate-y-[3px] hover:border-[rgba(112,164,255,.38)] hover:text-[var(--accent-link)]"
                 href={social.href}
                 key={social.label}
                 target="_blank"
