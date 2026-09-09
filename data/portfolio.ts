@@ -140,18 +140,18 @@ export const stats = [
 ] as const;
 
 export const skills = [
-  { name: 'React', icon: 'Atom', color: '#63d8ff' },
-  { name: 'Next.js', icon: 'N', color: '#f8fafc' },
-  { name: 'TypeScript', icon: 'TS', color: '#4f8dff' },
-  { name: 'Tailwind CSS', icon: 'Wind', color: '#4ecbff' },
-  { name: 'Node.js', icon: 'Hexagon', color: '#67c66d' },
-  { name: 'NestJS', icon: 'N', color: '#ed315b' },
-  { name: 'Python', icon: 'Py', color: '#ffd65b' },
-  { name: 'PostgreSQL', icon: 'Database', color: '#79b8ff' },
-  { name: 'MongoDB', icon: 'Leaf', color: '#58cf82' },
-  { name: 'Docker', icon: 'Container', color: '#53a6ff' },
-  { name: 'Git', icon: 'GitBranch', color: '#f26347' },
-  { name: 'Figma', icon: 'Figma', color: '#b36bff' },
+  { name: 'React', logo: '/tech/react.svg', color: '#61dafb' },
+  { name: 'Next.js', logo: '/tech/nextjs.svg', color: '#94a3b8' },
+  { name: 'TypeScript', logo: '/tech/typescript.svg', color: '#3178c6' },
+  { name: 'Tailwind CSS', logo: '/tech/tailwindcss.svg', color: '#06b6d4' },
+  { name: 'Node.js', logo: '/tech/nodejs.svg', color: '#5fa04e' },
+  { name: 'NestJS', logo: '/tech/nestjs.svg', color: '#e0234e' },
+  { name: 'Python', logo: '/tech/python.svg', color: '#ffd43b' },
+  { name: 'PostgreSQL', logo: '/tech/postgresql.svg', color: '#4169e1' },
+  { name: 'MongoDB', logo: '/tech/mongodb.svg', color: '#47a248' },
+  { name: 'Docker', logo: '/tech/docker.svg', color: '#2496ed' },
+  { name: 'Git', logo: '/tech/git.svg', color: '#f05032' },
+  { name: 'Figma', logo: '/tech/figma.svg', color: '#f24e1e' },
 ];
 
 export const projects = [
